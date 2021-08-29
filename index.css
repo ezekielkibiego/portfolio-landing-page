@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
   }
 body{
@@ -11,6 +11,10 @@ body{
     padding: 0;
     background-color: rgba(0, 0, 0, 0.904);
    } 
+   .container {
+     background-color: rgba(165, 166, 246, 1);
+     border-radius: 20px;
+   }
    
    .portfolio{
     background-color: rgba(165, 166, 246, 1);
@@ -44,11 +48,11 @@ body{
      margin-right: 20px;
    }
    
-.contact form {
+/*.contact form {
     padding: 2px 20px 20px 30px;
     
 
-  }
+  }*/
   .contact div{
       display: flex;
       flex-direction: column;
@@ -93,10 +97,9 @@ body{
     width: 100px;
     color: rgba(165, 166, 246, 1);
 }
-.contact {
+.container {
     background-color: rgba(165, 166, 246, 1);
     border-radius: 20px;
-    flex-wrap: wrap;
 
 }
 
@@ -109,24 +112,23 @@ body{
     display: block;
   
 }
-.footer{
+.container{
     background-color: rgba(165, 166, 246, 1);
     border-radius: 20px;
 }
-.footer h3{
+.container .footer h3{
     text-align: center;
     padding-top: 20px;
     color: white;
     font-size: 25px;
     font-weight: bolder;
 }
-.footer div{
-    display: flex;
+.container .footer1 div{
+    display: inline-flex;
     flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    margin-right: 60px;
-    margin-left: 90px;
+    margin: 50px;
+    margin-left: 60px;
+    padding: 20px;
   }
 
     
