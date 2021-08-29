@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  
 body{
     color: white;
     font-family: Helvetica, Arial, sans-serif;
@@ -11,10 +10,39 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgba(0, 0, 0, 0.904);
-   }  
+   } 
+   
+   .portfolio{
+    background-color: rgba(165, 166, 246, 1);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    
+   }
+
+     
+   .portfolio h2 {
+     text-align: center;
+     font-weight: bolder;
+     padding-top: 20px;
+   }
+   .portfolio p{
+     text-align: center;
+     font-size: 20px;
+   }
+
+   .portfolio .grid-container{
+     display: inline-grid;
+     grid-template-columns: auto auto;
+     
+   }
+  
+   .portfolio div {
+     padding: 20px;
+     margin-left: 20px;
+   }
 
 .contact form {
-    padding: 60px 20px 30px;
+    padding: 2px 20px 20px 30px;
     
 
   }
@@ -22,9 +50,9 @@ body{
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      margin: 10px;
+      margin: 20px;
   }
-  .contact .full-half {
+   .contact .full-half {
       margin-bottom: 10px;
       margin-left: 78px;
       margin-right: 78px;
@@ -34,7 +62,7 @@ body{
       border: none;
       
   }
-  .contact .subject {
+.contact .subject {
     margin-bottom: 10px;
     margin-left: 78px;
     margin-right: 78px;
@@ -44,7 +72,7 @@ body{
     border: none;
 
   }
-  .contact .message {
+.contact .message {
     margin-bottom: 10px;
     margin-left: 78px;
     margin-right: 78px;
@@ -57,16 +85,14 @@ body{
     padding:10px 15px;
     border:0 none;
     cursor:pointer;
-    background-color: white;
+    background-color: green;
     margin-left: 78px;
     width: 100px;
-    color: green;
+    color: rgba(165, 166, 246, 1);
 }
-
 .contact {
     background-color: rgba(165, 166, 246, 1);
-    border-radius: 25px;
-    margin: 2px;
+    border-radius: 20px;
     flex-wrap: wrap;
 
 }
@@ -78,12 +104,11 @@ body{
     font-weight: bolder;
     padding-top: 20px;
     display: block;
-    margin-top: -60px;
+  
 }
 .footer{
     background-color: rgba(165, 166, 246, 1);
-    border-radius: 25px;
-    margin: 2px;
+    border-radius: 20px;
 }
 .footer h3{
     text-align: center;
