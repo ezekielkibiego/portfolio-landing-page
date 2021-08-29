@@ -11,19 +11,17 @@ body{
     padding: 0;
     background-color: rgba(0, 0, 0, 0.904);
    } 
-   .container {
+   .container{
      background-color: rgba(165, 166, 246, 1);
      border-radius: 20px;
    }
-   
-   .portfolio{
+   .container .profile{
+     display: flex;
+   }
+   .container{
     background-color: rgba(165, 166, 246, 1);
     border-radius: 20px;
-    flex-wrap: wrap;
-    
    }
-
-     
    .portfolio h2 {
      text-align: center;
      font-weight: bolder;
@@ -37,7 +35,6 @@ body{
    .portfolio .grid-container{
      display: flex;
      flex-wrap: wrap;
-     border: green 2px solid;
      
      
    }
@@ -47,12 +44,6 @@ body{
      margin-left: 20px;
      margin-right: 20px;
    }
-   
-/*.contact form {
-    padding: 2px 20px 20px 30px;
-    
-
-  }*/
   .contact div{
       display: flex;
       flex-direction: column;
@@ -97,7 +88,8 @@ body{
     width: 100px;
     color: rgba(165, 166, 246, 1);
 }
-.container {
+.container{
+  margin-top: 10px;
     background-color: rgba(165, 166, 246, 1);
     border-radius: 20px;
 
