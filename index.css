@@ -15,8 +15,10 @@ body{
      background-color: rgba(165, 166, 246, 1);
      border-radius: 20px;
    }
-   .container .profile{
-     display: flex;
+   .container h1,p{
+     text-align: right;
+     margin-right: 20px;
+     padding-right: 30px;
    }
    .container{
     background-color: rgba(165, 166, 246, 1);
