@@ -11,27 +11,22 @@ body{
     padding: 0;
     background-color: black;
    }
-   .container nav{
-     background-color: rgba(165, 166, 246, 1);
-     border-radius: 10px;
-   }
    nav li{
      text-decoration: none;
      display: inline;
-     padding: 30px;
+     padding: 40px;
      padding-bottom: 20px;
      color: white;
-     font-weight: 800;
+     font-weight: 400;
      font-size: 25px;
-     color: white;
-   }
-   .profile img{
-     border-radius: 25%;
-     margin-top: 50px;
+     
    }
    nav a{
      text-decoration: none;
-     color: whitesmoke
+     color: whitesmoke;
+     background-color: black;
+     border: 2px solid rgba(165, 166, 246, 1);
+     border-radius: 10px;
    }
    a:hover{
      background-color: magenta;
@@ -40,11 +35,7 @@ body{
    .container{
      background-color: rgba(165, 166, 246, 1);
      border-radius: 20px;
-   }
-   .container h1,p{
-     text-align: right;
-     margin-right: 20px;
-     padding-right: 30px;
+     margin-top: 50px;
    }
    .lead{
      color: white;
@@ -140,10 +131,10 @@ body{
     padding:10px 15px;
     border:0 none;
     cursor:pointer;
-    background-color: magenta;
+    background-color: white;
     margin-left: 78px;
     width: 100px;
-    color: whitesmoke;
+    color: rgba(165, 166, 246, 1);
     border-radius: 20px;
 }
 input[type=submit]:hover{
@@ -191,9 +182,23 @@ input[type=submit]:hover{
     text-align: center;
   
   }
-  .image2 .responsive{
-    width: 50%;
-    height: auto;
+  .profile{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 400px;
   }
-  
-    
+  .image1 .responsive{
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
+  }
+  h2,h4{
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid rgba(165, 166, 246, 1);
+  }
+  h1{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
