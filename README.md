@@ -13,13 +13,10 @@ This Website details the professional Biography of Ezekiel Kibiego in the first 
 ### Live Link
 <a>https://ezekielkibiego.github.io/portfolio-landing-page/</a>
 
-<<<<<<< HEAD
-=======
 ### Video
 
-<a>https://drive.google.com/file/d/1-z88Tk_bN6UB1G87G6DdI_ZQXi42F4jv/view</a>
+<a>https://drive.google.com/file/d/1-z88Tk_bN6UB1G87G6DdI_ZQXi42F4jv/preview</a>
 
->>>>>>> 900f357464366a11ed0caa9df21cfa57efd0e19d
 ## Known Bugs
 
 No known Bugs yet
