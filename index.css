@@ -9,7 +9,9 @@ body{
     line-height: 1;
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-image: url("assets/tech.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
    }
    .container nav{
      background-color: rgba(165, 166, 246, 1);
@@ -26,13 +28,16 @@ body{
      color: white;
      position: sticky;
    }
+   .profile img{
+     border-radius: 50%;
+     margin-top: 50px;
+   }
    nav a{
      text-decoration: none;
      color: white;
    }
    a:hover{
-     color: magenta;
-     background-color: green;
+     background-color: magenta;
      border-radius: 10px;
    }
    .container{
@@ -44,9 +49,26 @@ body{
      margin-right: 20px;
      padding-right: 30px;
    }
+   .lead{
+     color: black;
+   }
    .container{
     background-color: rgba(165, 166, 246, 1);
     border-radius: 20px;
+   }
+   .container .skills{
+     display: flex;
+   }
+   .container .hobbies{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 50px;
+   }
+   .hobbies h5{
+     margin-top: -30px;
+   }
+   .skills li{
+     margin-left: 50px;
    }
    .portfolio h2 {
      text-align: center;
@@ -109,15 +131,19 @@ body{
     padding:10px 15px;
     border:0 none;
     cursor:pointer;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.74);
     margin-left: 78px;
     width: 100px;
-    color: rgba(165, 166, 246, 1);
+    color: whitesmoke;
+    border-radius: 20px;
+}
+input[type=submit]:hover{
+  color: magenta;
 }
 .container{
   margin-top: 10px;
-    background-color: rgba(165, 166, 246, 1);
-    border-radius: 20px;
+  background-color: rgba(165, 166, 246, 1);
+  border-radius: 20px;
 
 }
 
@@ -156,5 +182,9 @@ body{
     text-align: center;
   
   }
-
+  .image2 .responsive{
+    width: 50%;
+    height: auto;
+  }
+  
     
