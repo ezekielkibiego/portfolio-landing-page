@@ -28,11 +28,6 @@ body{
      text-decoration: none;
      text-align: center;
    }
-   a:hover{
-     color: #5f6368;
-     background-color: white;
-     border-radius: 5px;
-   }
    .lead{
      color: white;
    }
@@ -49,11 +44,6 @@ body{
      border: 2px solid rgba(165, 166, 246, 1);
      border-radius: 20px;
      background-color: #5f6368;
-   }
-   a:hover{
-     color: #5f6368;
-     background-color: white;
-     border-radius: 20px;
    }
    .portfolio p{
      text-align: center;
