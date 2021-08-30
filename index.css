@@ -33,16 +33,10 @@ body{
      background-color: white;
      border-radius: 5px;
    }
-   .container{
-    
-     border-radius: 20px;
-     
-   }
    .lead{
      color: white;
    }
    .container{
-    
     border-radius: 20px;
    }
    .portfolio h2 {
@@ -75,7 +69,6 @@ body{
    }*/
 .container{
   margin-top: 10px;
-  
   border-radius: 20px;
   margin-bottom: 30px;
   padding-bottom: 5px;
@@ -129,5 +122,3 @@ body{
     background-color: rgba(165, 166, 246, 1);
     color: #5f6368;
   }
-  .hero{
-    
