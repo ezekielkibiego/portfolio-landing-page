@@ -55,9 +55,19 @@
             <div class="skills">
               <h5>Skills;</h5>
               <ul>
-                <li><img src="assets/html-5.png" alt="html icon">HTML</li>
-                <li><img src="assets/css3.png" alt="css icon">CSS</li>
-                <li><img src="assets/javascript.png" alt="js icon">javaScript</li>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <li><img src="assets/html-5.png" alt="html icon">HTML</li>
+                    </div>
+                    <div class="col">
+                      <li><img src="assets/css3.png" alt="css icon">CSS</li>
+                    </div>
+                    <div class="col">
+                      <li><img src="assets/javascript.png" alt="js icon">JavaScript</li>
+                    </div>
+                  </div>
+                </div>
               </ul>
             </div>
             <div class="hobbies">
@@ -110,17 +120,30 @@
         </div>
       </div>
       
-
       <div class="container-fluid footer" id="contact">
         <div class="container">
           <div class="contact">
             <form>
               <h2>contact</h2>
-              <div><input type="text" placeholder="Name" id="name" name="name" class="full-half"></div>
-              <diV><input type="email" placeholder="Email" id="Email" name="email" class="full-half"></div>
-              <div><input type="text" placeholder="Subject" id="subject" class="subject"></div>
-              <div><input type="text" placeholder="Message" id="message" class="message"></div>
-              <div class="send"><input type="submit" value="Send"></div>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comment"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-secondary">Send</button>
+              </div>
             </form>
           </div>
         </div>
@@ -130,15 +153,29 @@
           <div class="footer">
             <h2>Contact Me</h2>
           </div>
-          <div class="footer1">
-              <div><a href="https://github.com/ezekielkibiego" target="_blank"><img src="assets/github.png" alt="github" width="30" height="30"></a></div>
-              <div><a href="https://www.linkedin.com/in/kibiego-ezekiel-68880120a/" target="_blank"><img src="assets/linkedin.png" alt="linkedin" width="30" height="30"></a></div>
-              <div><a href="https://www.facebook.com/kibiego.ezekiel.9" target="_blank"><img src="assets/facebook.png" alt="facebook" width="30" height="30"></a></div>
-              <div><a href="https://twitter.com/KibiegoEzekiel" target="_blank"><img src="assets/twitter--v1.png" alt="twitter" width="30" height="30"></a></div>
-              <div><a href="http://wa.me/+254722991833" target="_blank"><img src="assets/whatsapp.png" alt="whatsapp" width="30" height="30"></a></div>
-              <div><a href="mailto: kibiezekiel@gmail.com" target="_blank"><img src="assets/gmail.png" alt="email" width="30" height="30"></a></div>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div><a href="https://github.com/ezekielkibiego" target="_blank"><img src="assets/github.png" alt="github" width="30" height="30"></a></div>
+              </div>
+              <div class="col">
+                <div><a href="mailto: kibiezekiel@gmail.com" target="_blank"><img src="assets/gmail.png" alt="email" width="30" height="30"></a></div>
+              </div>
+              <div class="col">
+                <div><a href="https://www.linkedin.com/in/kibiego-ezekiel-68880120a/" target="_blank"><img src="assets/linkedin.png" alt="linkedin" width="30" height="30"></a></div>
+              </div>
+              <div class="col">
+                <div><a href="http://wa.me/+254722991833" target="_blank"><img src="assets/whatsapp.png" alt="whatsapp" width="30" height="30"></a></div>
+              </div>
+              <div class="col">
+                <div><a href="https://twitter.com/KibiegoEzekiel" target="_blank"><img src="assets/twitter--v1.png" alt="twitter" width="30" height="30"></a></div>
+              </div>
+              <div class="col">
+                <div><a href="https://www.facebook.com/kibiego.ezekiel.9" target="_blank"><img src="assets/facebook.png" alt="facebook" width="30" height="30"></a></div>
+              </div>
+            </div>
+          </div>
         </div>
-      </footer>
     </div>         
 </body>
 </html>

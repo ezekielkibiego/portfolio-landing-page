@@ -40,17 +40,6 @@ body{
     background-color: rgba(165, 166, 246, 1);
     border-radius: 20px;
    }
-   .container .skills{
-     display: flex;
-   }
-   .container .hobbies{
-    display: flex;
-    margin-bottom: 30px;
-    margin-top: 50px;
-   }
-   .hobbies h5{
-     margin-top: -30px;
-   }
    .skills li{
      margin-left: 50px;
    }
@@ -82,7 +71,7 @@ body{
      padding: 20px;
      
      
-   }*/
+   }
   .contact div{
       display: flex;
       flex-direction: column;
@@ -131,7 +120,7 @@ body{
 input[type=submit]:hover{
   color: white;
   background-color: #5f6368;
-}
+}*/
 .container{
   margin-top: 10px;
   background-color: rgba(165, 166, 246, 1);
@@ -192,4 +181,7 @@ input[type=submit]:hover{
     background-color: #5f6368;
     border-radius: 20px;
     margin-top: 10px;
+  }
+  .footer a{
+    text-align: center;
   }
