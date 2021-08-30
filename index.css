@@ -11,21 +11,17 @@ body{
     padding: 0;
     background-color: #5f6368;
    }
-   nav li{
-     text-decoration: none;
-     display: inline;
-     padding: 40px;
-     padding-bottom: 20px;
+   nav h3{
      color: white;
-     font-weight: 400;
-     font-size: 25px;
-     
+     text-align: center;
    }
-   nav a{
+   nav h3:hover{
+    color: #5f6368;
+    background-color: white;
+    border-radius: 5px;
+   }
+   a{
      text-decoration: none;
-     color: whitesmoke;
-     background-color: #5f6368;
-     border-radius: 10px;
    }
    a:hover{
      color: #5f6368;
@@ -35,7 +31,7 @@ body{
    .container{
      background-color: rgba(165, 166, 246, 1);
      border-radius: 20px;
-     margin-top: 50px;
+     
    }
    .lead{
      color: white;
@@ -79,20 +75,14 @@ body{
      text-align: center;
      font-size: 20px;
    }
-
+/*
    .portfolio .grid-container{
      display: grid;
      grid-template-columns: auto auto;
      padding: 20px;
      
      
-   }
-  
-   .portfolio div{
-     padding: 20px;
-     margin-left: 20px;
-     margin-right: 20px;
-   }
+   }*/
   .contact div{
       display: flex;
       flex-direction: column;
