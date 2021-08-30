@@ -21,6 +21,7 @@ body{
    }
    a{
      text-decoration: none;
+     text-align: center;
    }
    a:hover{
      color: #5f6368;
@@ -42,7 +43,6 @@ body{
    .portfolio h2 {
      text-align: center;
      font-weight: bolder;
-     padding-top: 20px;
    }
    .portfolio a{
      text-decoration: none;
@@ -72,6 +72,9 @@ body{
   margin-top: 10px;
   background-color: rgba(165, 166, 246, 1);
   border-radius: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 
 }
 
@@ -79,8 +82,6 @@ body{
     text-align: center;
     color: white;
     font-weight: bolder;
-    padding-top: 20px;
-    display: block;
   
 }
 .container{
@@ -89,7 +90,6 @@ body{
 }
 .container .footer h3{
     text-align: center;
-    padding-top: 20px;
     color: white;
     font-size: 25px;
     font-weight: bolder;
@@ -110,7 +110,6 @@ body{
   h1{
     background-color: #5f6368;
     border-radius: 20px;
-    margin-top: 10px;
   }
   .profile .responsive{
     width: 100%;
