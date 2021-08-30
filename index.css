@@ -25,8 +25,7 @@ body{
      text-decoration: none;
      color: whitesmoke;
      background-color: black;
-     border: 2px solid rgba(165, 166, 246, 1);
-     border-radius: 20px;
+     border-radius: 10px;
    }
    a:hover{
      color: black;
