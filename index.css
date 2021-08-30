@@ -28,6 +28,9 @@ body{
      text-decoration: none;
      text-align: center;
    }
+   .profile img{
+     border-radius: 50px;
+   }
    .lead{
      color: white;
    }
