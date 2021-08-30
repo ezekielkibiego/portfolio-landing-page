@@ -30,7 +30,7 @@ body{
    a:hover{
      color: black;
      background-color: white;
-     border-radius: 20px;
+     border-radius: 5px;
    }
    .container{
      background-color: rgba(165, 166, 246, 1);
@@ -152,7 +152,6 @@ input[type=submit]:hover{
 .contact h2{
     text-align: center;
     color: white;
-    font-size: 25px;
     font-weight: bolder;
     padding-top: 20px;
     display: block;
