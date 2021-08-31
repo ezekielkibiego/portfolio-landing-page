@@ -3,13 +3,14 @@
   }
 body{
     color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Lato', global_font_string, sans-serif;
     font-size: 20px;
     font-style: normal;
+    font-weight: 400;
     line-height: 1;
     margin: 0;
     padding: 0;
-    background-image: url("https://i.gifer.com/JcB3.gif");
+    background-image: url("https://media0.giphy.com/media/UUHUfrG6NsXzG/giphy.gif?cid=ecf05e472g5f7wn32x4rtk2icudn230x8qiq1qq2awvm77do&rid=giphy.gif&ct=g");
     min-height: 100vh;
     width: 100%;
     background-color: #5f6368;
