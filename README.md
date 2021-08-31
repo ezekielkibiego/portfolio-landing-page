@@ -1,6 +1,9 @@
 # Portfolio Landing Page
 #### A simple Portifolio Website, 29th AUGUST 2021
 #### By **Ezekiel Kibiego**
+
+<img src="assets/project.png">
+
 ## Description
 This Website details the professional Biography of Ezekiel Kibiego in the first week of the Software Development course at Moringa School. It has detailed information in the about section and the contact section as well.
 ## Setup/Installation Requirements
